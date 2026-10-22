@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Lynn Luxe Diwali Carnival</title>
+<title>Lynn Luxe Shubaram Night</title>
 <meta name="claude:viewport-fit-sides" content="cover">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700&family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Great+Vibes&display=swap">
@@ -144,7 +144,7 @@ body {
 .shubh { font-family: var(--script); font-size: clamp(34px, 9vw, 44px); line-height: 1.1; color: var(--ivory); }
 .welcome { margin: 0; font-style: italic; font-size: 21px; color: var(--muted); }
 .title { margin: 6px 0 0; display: flex; flex-direction: column; align-items: center; line-height: 1; }
-.title .t1 { font-family: var(--caps); font-weight: 700; font-size: clamp(54px, 15vw, 84px); letter-spacing: .06em; }
+.title .t1 { font-family: var(--caps); font-weight: 700; font-size: clamp(42px, 12vw, 70px); letter-spacing: .06em; }
 .title .t2 { font-family: var(--script); font-weight: 400; font-size: clamp(56px, 15vw, 82px); margin-top: -18px; color: var(--ivory); text-shadow: 0 2px 18px rgba(255,190,90,.35); }
 .tag { font-family: var(--caps); font-size: 13px; letter-spacing: .24em; color: var(--ivory); text-transform: uppercase; line-height: 1.7; max-width: 30ch; }
 .orn { width: 240px; max-width: 80%; height: 30px; }
@@ -183,6 +183,12 @@ body {
 .diyas svg { width: 40px; height: 34px; overflow: visible; }
 .diyas .fl { transform-origin: 20px 15px; animation: flicker 1.6s ease-in-out infinite; }
 .diyas svg:nth-child(2) .fl { animation-delay: .3s } .diyas svg:nth-child(3) .fl { animation-delay: .7s } .diyas svg:nth-child(4) .fl { animation-delay: .5s } .diyas svg:nth-child(5) .fl { animation-delay: .9s }
+.vibes { font-family: var(--caps); font-size: 13px; letter-spacing: .3em; color: var(--gold); text-transform: uppercase; margin-top: 4px; }
+.exp { width: 100%; max-width: 400px; margin-top: 6px; padding: 18px 16px; box-sizing: border-box; border: 1px solid rgba(217,180,107,.45); border-radius: 12px; background: rgba(5,33,26,.55); }
+.exp-h { font-family: var(--caps); font-weight: 600; font-size: 12px; letter-spacing: .26em; text-transform: uppercase; color: var(--gold-hi); margin-bottom: 12px; }
+.exp ul { list-style: none; margin: 0; padding: 0; display: grid; gap: 10px; text-align: left; }
+.exp li { display: flex; align-items: center; gap: 12px; font-size: 18px; line-height: 1.3; color: var(--ivory); }
+.exp li svg { flex: 0 0 auto; width: 26px; height: 26px; }
 .sign { display: flex; flex-direction: column; align-items: center; gap: 4px; margin-top: 6px; padding-top: 16px; border-top: 1px solid rgba(217,180,107,.35); width: 70%; }
 .sign b { font-family: var(--caps); font-weight: 600; font-size: 14px; letter-spacing: .34em; color: var(--gold); }
 .sign span { font-style: italic; font-size: 16px; color: var(--muted); }
@@ -224,9 +230,9 @@ body {
 </div>
 
 <section class="cover" id="cover" aria-label="Open your invitation">
-  <div class="brand">Lynn Luxe Events</div>
+  <div class="brand">Lynn Luxe Event Studio</div>
   <div class="invited">You're Invited</div>
-  <div class="for" id="forLine">to celebrate the festival of lights</div>
+  <div class="for" id="forLine">to Shubaram Night 2026</div>
   <button class="seal" id="seal" type="button" aria-label="Light the diya to open your invitation">
     <span class="halo"></span>
     <svg viewBox="0 0 120 120" aria-hidden="true">
@@ -259,16 +265,16 @@ body {
         <circle cx="4" cy="50" r="2.2" fill="#D9B46B"></circle><circle cx="86" cy="50" r="2.2" fill="#D9B46B"></circle>
       </svg>
 
-      <div class="presents r" style="--d:1">Lynn Luxe Events presents</div>
-      <div class="shubh r" style="--d:2">Shubh Deepavali</div>
-      <p class="welcome r" style="--d:3" id="welcome">Dear guest, you and your family are warmly invited to the</p>
+      <div class="presents r" style="--d:1">Lynn Luxe Event Studio</div>
+      <div class="shubh r" style="--d:2">Festival of Lights</div>
+      <p class="welcome r" style="--d:3" id="welcome">Cordially invites you &amp; your family to</p>
 
       <h1 class="title" id="invTitle">
-        <span class="t1 foil r" style="--d:4">DIWALI</span>
-        <span class="t2 r" style="--d:5">Carnival</span>
+        <span class="t1 foil r" style="--d:4">SHUBARAM</span>
+        <span class="t2 r" style="--d:5">Night 2026</span>
       </h1>
 
-      <div class="tag r" style="--d:6">Two evenings of lights, food, music &amp; festive joy</div>
+      <div class="tag r" style="--d:6">2 days of grand celebration</div>
 
       <svg class="orn r" style="--d:7" viewBox="0 0 240 30" aria-hidden="true" fill="none" stroke="#D9B46B" stroke-width="1.2">
         <path d="M0 15 H84 M156 15 H240"></path>
@@ -286,26 +292,35 @@ body {
       <div class="info r" style="--d:9">
         <div class="row">
           <svg viewBox="0 0 24 24" fill="none" stroke="#D9B46B" stroke-width="1.6" aria-hidden="true"><circle cx="12" cy="12" r="9"></circle><path d="M12 7v5l3.5 2"></path></svg>
-          <div><b>5 PM ONWARDS</b><span>both evenings</span></div>
+          <div><b>5 PM ONWARDS</b><span>VIP early entry: 6:00 PM</span></div>
         </div>
         <div class="row">
           <svg viewBox="0 0 24 24" fill="none" stroke="#D9B46B" stroke-width="1.6" aria-hidden="true"><path d="M12 21s-7-6.2-7-11.5A7 7 0 0 1 19 9.5C19 14.8 12 21 12 21Z"></path><circle cx="12" cy="9.5" r="2.5"></circle></svg>
-          <div><b>MELA GROUND</b><span>near Borum Bridge, Naharlagun</span></div>
+          <div><b>SPARTAN RECREATIONAL GROUND</b><span>near Borum Bridge, Yupia Road Highway</span></div>
         </div>
       </div>
 
       <div class="actions r" style="--d:10">
-        <a class="btn" href="https://www.google.com/maps/search/?api=1&amp;query=Mela+Ground+Borum+Bridge+Naharlagun" target="_blank" rel="noopener">
+        <a class="btn" href="https://www.google.com/maps/search/?api=1&amp;query=Spartan+Recreational+Ground+Borum+Bridge+Yupia+Road" target="_blank" rel="noopener">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 21s-7-6.2-7-11.5A7 7 0 0 1 19 9.5C19 14.8 12 21 12 21Z"></path><circle cx="12" cy="9.5" r="2.5"></circle></svg>
           Directions
         </a>
-        <a class="btn ghost" href="https://calendar.google.com/calendar/render?action=TEMPLATE&amp;text=Lynn+Luxe+Diwali+Carnival&amp;dates=20261107/20261109&amp;details=Diwali+Carnival+by+Lynn+Luxe+Events.+5+PM+onwards+on+both+evenings.&amp;location=Mela+Ground,+near+Borum+Bridge,+Naharlagun" target="_blank" rel="noopener">
+        <a class="btn ghost" href="https://calendar.google.com/calendar/render?action=TEMPLATE&amp;text=Shubaram+Night+2026+by+Lynn+Luxe&amp;dates=20261107/20261109&amp;details=Shubaram+Night+2026+-+Festival+of+Lights+by+Lynn+Luxe+Event+Studio.+5+PM+onwards+(VIP+early+entry+6+PM).&amp;location=Spartan+Recreational+Ground,+near+Borum+Bridge,+Yupia+Road+Highway" target="_blank" rel="noopener">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="4" y="5" width="16" height="15" rx="2"></rect><path d="M4 10h16M9 3v4M15 3v4"></path></svg>
           Save the date
         </a>
       </div>
 
-      <p class="note r" style="--d:11">Bring your family and friends, and let's light up Naharlagun together.</p>
+      <div class="vibes r" style="--d:11">Lights. Music. Festival vibes.</div>
+      <p class="note r" style="--d:11">This Diwali, let's celebrate big!</p>
+      <div class="exp r" style="--d:11">
+        <div class="exp-h">Special family experiences</div>
+        <ul>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="#D9B46B" stroke-width="1.6" aria-hidden="true"><path d="M5 11V8a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v3"></path><path d="M3 13a2 2 0 0 1 4 0v2h10v-2a2 2 0 0 1 4 0v5H3z"></path><path d="M6 18v2M18 18v2"></path></svg><span>Reserved VIP lounge seating</span></li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="#D9B46B" stroke-width="1.6" aria-hidden="true"><circle cx="8" cy="5" r="2"></circle><circle cx="16" cy="5" r="2"></circle><path d="M8 7v6l-3 7M8 13l3 7M16 7v6l3 7M16 13l-3 7M4 9l4 1M20 9l-4 1"></path></svg><span>Live entertainment, Dandiya dance &amp; games</span></li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="#D9B46B" stroke-width="1.6" aria-hidden="true"><path d="M4 16a8 8 0 0 1 16 0"></path><path d="M2 16h20M12 6V4M10 4h4"></path><path d="M5 19h14"></path></svg><span>Customized gourmet hospitality</span></li>
+        </ul>
+      </div>
 
       <div class="diyas r" style="--d:12" aria-hidden="true">
         <svg viewBox="0 0 40 34"><path class="fl" d="M20 2 C25 8 25 12 20 16 C15 12 15 8 20 2 Z" fill="#FFB547"></path><path d="M4 18 Q20 22 36 18 Q33 31 20 32 Q7 31 4 18 Z" fill="#D9B46B"></path></svg>
@@ -316,7 +331,7 @@ body {
       </div>
 
       <div class="sign r" style="--d:13">
-        <b>LYNN LUXE EVENTS</b>
+        <b>LYNN LUXE EVENT STUDIO</b>
         <span>Crafting moments, creating memories</span>
       </div>
       <button class="replay r" style="--d:14" id="replay" type="button">Open again</button>
@@ -335,8 +350,8 @@ body {
     var raw = decodeURIComponent((location.hash || '').slice(1)).replace(/[_~.-]+/g, ' ').trim();
     if (raw && /^[A-Za-z0-9À-ɏ ]{1,40}$/.test(raw)) {
       var name = raw.replace(/\b\w/g, function (c) { return c.toUpperCase(); });
-      document.getElementById('welcome').textContent = 'Dear ' + name + ', you and your family are warmly invited to the';
-      document.getElementById('forLine').textContent = name + ', to celebrate the festival of lights';
+      document.getElementById('welcome').textContent = 'Dear ' + name + ', Lynn Luxe cordially invites you & your family to';
+      document.getElementById('forLine').textContent = name + ', join us for Shubaram Night 2026';
     }
   } catch (e) {}
 

@@ -1,10 +1,10 @@
-# Lynn Luxe Diwali Carnival — E-Invitation
+# Shubaram Night 2026 — Lynn Luxe E-Invitation
 
-Animated e-invite for the Lynn Luxe Events Diwali Carnival.
+Animated e-invite for the Lynn Luxe Events Shubaram Night 2026 (Festival of Lights).
 
 - **Dates:** Saturday 7 & Sunday 8 November 2026
-- **Time:** 5 PM onwards
-- **Venue:** Mela Ground, near Borum Bridge, Naharlagun
+- **Time:** 5 PM onwards (VIP early entry 6:00 PM)
+- **Venue:** Spartan Recreational Ground, near Borum Bridge, Yupia Road Highway
 
 Guests tap the diya seal, the palace doors open with fireworks, and the invitation is revealed.
 
